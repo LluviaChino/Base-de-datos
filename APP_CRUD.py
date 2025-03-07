@@ -117,3 +117,5 @@ for Fila in TablaProfesores:
         AccDesviacion=AccDesviacion+((float(Fila[2])-MediaProfesores)*(float(Fila[2])-MediaProfesores))
 S= math.sqrt(AccDesviacion)/(len(TablaProfesores)-1)
 print('La desviación estandar es: ', S)
+
+print('Este es un nuevo mensaje 7/03/2025 a las 2:56 pm')
